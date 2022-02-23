@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+.congrats{
+  background-color: rgba(0, 0, 0, 0.45) !important;
+}
+.custom.congrats>div {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  
+}
+
+.custom.congrats__content {
+  width: 100%;
+  max-width: 1140px;
+  padding: 45px 50px 95px;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.custom.congrats__content>img {
+  position: absolute;
+  z-index: 2;
+  left: 8px;
+  top: 147px;
+  width: 99%;
+  max-width: 550px
+}
+
+.custom.congrats__close {
+  position: absolute;
+  right: 30px;
+  top: 30px
+}
+
+.custom.congrats__heading {
+  margin-bottom: 130px;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  color: #FB9600;
+  position: relative;
+  z-index: 5
+}
+
+.custom.congrats__block {
+  background: linear-gradient(251.35deg, #E8F2FD 0%, #C3CEE9 100%);
+  -webkit-box-shadow: -17px 19px 32px rgba(7, 7, 7, 0.08);
+  box-shadow: -17px 19px 32px rgba(7, 7, 7, 0.08);
+  border-radius: 40px;
+  text-align: center;
+  padding: 60px 52px;
+  max-width: 600px;
+  margin-left: auto;
+  position: relative;
+  z-index: 5
+}
+
+.custom.congrats__block h2 {
+  font-size: 24px;
+  line-height: 33px;
+  color: #353638;
+  margin-bottom: 35px
+}
+
+.custom.congrats__block p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #353638
+}
+
+@media (max-width: 576px) {
+  .custom.congrats__content {
+    max-width: 375px;
+    padding: 42px 7px 15px
+  }
+
+  .custom.congrats__content>img {
+    max-width: 290px;
+    left: -51px;
+    top: 135px
+  }
+
+  .custom.congrats__heading {
+    font-size: 26px;
+    line-height: 35px;
+    margin-bottom: 180px;
+    margin-bottom: 200px
+  }
+
+  .custom.congrats__heading br {
+    display: none
+  }
+
+  .custom.congrats__block {
+    padding: 26px 22px
+  }
+
+  .custom.congrats__block h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px
+  }
+
+  .custom.congrats__block p {
+    font-size: 15px;
+    line-height: 20px
+  }
+
+  .custom.congrats__block p br {
+    display: none;
+  }
+  .custom.congrats__close img{
+    width: 16px;
+    height: auto;
+    right: 20px;
+    top: 5px;
+  }
+}

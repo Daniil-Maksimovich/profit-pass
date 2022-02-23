@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profit Pass</title>
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/slick-theme.min.css">
+  <link rel="stylesheet" href="./css/styles.css?v=1.1">
+  <link rel="stylesheet" href="./css/adaptive.css?v=1.1">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container df aic jcsb">
+      <a href="#intro" class="header__logo">
+        <img src="./img/logo.svg" alt="logo">
+      </a>
+      <nav class="header__nav df aic">
+        <a href="#test">Пройти тест</a>
+        <a href="#programm">Программа курса</a>
+        <a href="#reviews">Чем полезно?</a>
+        <a href="#steps">Как попасть на курс?</a>
+      </nav>
+      <div class="burger">
+        <div class="burger__btn flex aic jcc">
+          <span></span>
+        </div>
+        <div class="burger__menu">
+          <nav>
+            <a href="#test">Пройти тест</a>
+            <a href="#programm">Программа курса</a>
+            <a href="#reviews">Чем полезно?</a>
+            <a href="#steps">Как попасть на курс?</a>
+            <a href="#register_form" class="main-btn">Получить консультацию</a>
+          </nav>
+        </div>
+        <div class="burger__overlay"></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="intro" id="intro">
+    <div class="container df jcsb">
+      <div class="intro__text">
+        <h1 class="border-text">
+          Курс “Как перестать бояться денег “
+        </h1>
+        <p>
+          <b>
+            Грамотны ли вы финансово?<br>
+            Умеете ли управлять своим доходом правильно?
+          </b>
+        </p>
+        <p>
+          Наверняка вы скажете: “Да, конечно!” <br>
+          Но если при этом вы тратите деньги импульсивно и у вас нет сбережений на черный день - ответ отрицательный.
+        </p>
+        <p>
+          Наш курс простой и понятный даже ребенку. После него вы научитесь распоряжаться доходом правильно.
+        </p>
+      </div>
+      <div class="intro__form">
+        <img src="./img/intro-form-bg.svg" alt="background" class="bg">
+        <div class="form-wrapper">
+          <h3 class="form-wrapper__title tac">
+            Отправьте свои данные и мы вышлем вам полный курс
+          </h3>
+          <form id="register_form" class="form-container">
+            <div class='form_group--name'><label>Имя</label><input data-validation-type='firstname' name='firstname' placeholder='Имя' required>
+              <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+              <div class='error'></div>
+            </div>
+            <div class='form_group--email'><label>Email</label><input type='email' data-validation-type='email' name='email' placeholder='Электронная почта' required>
+              <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+              <div class='error'></div>
+            </div>
+            <div class='form_input--group'><label>Телефон</label><input data-validation-type='phone' name='phone' placeholder='' required>
+              <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+              <div class='error'></div>
+            </div>
+            <div class='form_group--button'>
+              <button class='send-form btn btn-primary main-btn' type='submit'>
+                <span class='button--inner'>Получить курс</span>
+              </button>
+            </div>
+          </form>
+          <img src="./img/intro-form.png" alt="man" class="man">
+          <img src="./img/mob-intro-form.png" alt="man" class="man mob">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="programm">
+    <div class="container">
+      <div class="programm__title tac">
+        <h2 class="border-text" id="programm">
+          Программа курса:
+        </h2>
+      </div>
+      <div class="programm__content">
+        <div class="programm__block df">
+          <div class="programm__item">
+            <div class="programm__item__counter">
+              1
+            </div>
+            <p>
+              Базовые принципы составления и ведения бюджета.
+            </p>
+          </div>
+          <div class="programm__item">
+            <div class="programm__item__counter">
+              2
+            </div>
+            <p>
+              Кредиты - зло? Почему ОЧЕНЬ важно иметь позитивную кредитную историю.
+            </p>
+          </div>
+        </div>
+        <div class="programm__block df">
+          <div class="programm__item">
+            <div class="programm__item__counter">
+              3
+            </div>
+            <p>
+              Как инвестировать грамотно и на перспективу.
+            </p>
+          </div>
+          <div class="programm__item">
+            <div class="programm__item__counter">
+              4
+            </div>
+            <p>
+              Налоги - что это и как их учитывать в бюджете
+            </p>
+          </div>
+          <div class="programm__item">
+            <div class="programm__item__counter">
+              5
+            </div>
+            <p>
+              Как повысить доход в разы и сохранить его надолго!
+            </p>
+          </div>
+        </div>
+        <img src="./img/programm.png" alt="man" class="man">
+      </div>
+      <div class="programm__slider">
+        <div class="programm__item">
+          <div class="programm__item__counter">
+            1
+          </div>
+          <p>
+            Базовые принципы составления и ведения бюджета.
+          </p>
+        </div>
+        <div class="programm__item">
+          <div class="programm__item__counter">
+            2
+          </div>
+          <p>
+            Кредиты - зло? Почему ОЧЕНЬ важно иметь позитивную кредитную историю.
+          </p>
+        </div>
+        <div class="programm__item">
+          <div class="programm__item__counter">
+            3
+          </div>
+          <p>
+            Как инвестировать грамотно и на перспективу.
+          </p>
+        </div>
+        <div class="programm__item">
+          <div class="programm__item__counter">
+            4
+          </div>
+          <p>
+            Налоги - что это и как их учитывать в бюджете
+          </p>
+        </div>
+        <div class="programm__item">
+          <div class="programm__item__counter">
+            5
+          </div>
+          <p>
+            Как повысить доход в разы и сохранить его надолго!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="test">
+    <div class="container">
+      <div class="text__title border-text tac">
+        <h2 id="test">
+          Пройдите тест и узнайте, как вы относитесь к финансам.
+        </h2>
+      </div>
+      <div class="test__block">
+        <div class="stage">ЭТАП 1</div>
+        <div class="test__content">
+          <img src="./img/test-block.png" alt="man" class="man">
+          <div class="test__item">
+            <h5>1. Какая зарплата оптимальна для содержания семьи, по вашему мнению?</h5>
+            <form>
+              <div>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>До 30 000 рублей</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>До 100 000 рублей</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Больше чем 100 000 рублей</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Миллион рублей и выше</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="test__item">
+            <h5>2. Знаете ли вы о запасе “на черный день”? Как думаете, в каком размере он должен быть?</h5>
+            <form>
+              <div>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Месячного дохода</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Дохода за полгода</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Годового дохода</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Сколько получится</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="test__item">
+            <h5>3. Вы откладываете деньги? Сколько % от дохода?</h5>
+            <form>
+              <div>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Меньше 10%</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Около 20%</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Около 40%</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Около 50%</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="test__item">
+            <h5>4. Обращаясь в банк за кредитом, на что обращаете внимание?</h5>
+            <form>
+              <div>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Ставка по процентам</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Общая стоимость кредита</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Ежемесячные платежи</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Все вышеуказанное</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Ни на что</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="test__item">
+            <h5>5. Если бы вы решили хранить деньги в банке, какая бы процентная ставка была бы для вас оптимальной?
+            </h5>
+            <form>
+              <div>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Менее 4,5% годовых</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>5-6% годовых</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Свыше 7,5% годовых</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Не собираюсь хранить деньги в банке</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="test__item">
+            <h5>6. Инвестировать можно в:</h5>
+            <form>
+              <div>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Акции</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Облигации</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Биржевые инвестиционные фонды</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Во все перечисленное</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="test__item">
+            <h5>7. Как инвестировать и уменьшить риск потери денег?</h5>
+            <form>
+              <div>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Выбрать один инвестиционный продукт</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Несколько продуктов</span>
+                </label>
+                <label class="test__item-answer">
+                  <input name="radio" type="radio">
+                  <span>Риски одинаковы</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <a href="/" class="main-btn">Узнать результат</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="stage-two">
+    <div class="container df aic jcsb">
+      <div class="stage">ЭТАП 2</div>
+      <p>Хотите понять, насколько вы “дружны” с деньгами - честно ответьте на дополнительные вопросы. Положительный
+        ответ дает один балл. Больше баллов - выше уровень финансовой грамотности!</p>
+      <div class="stage-two__block">
+        <ol>
+          <li>Есть ли у вас кредиты? </li>
+          <li>Просчитываете ли вы бюджет на месяц?</li>
+          <li>Удается ли вам откладывать деньги на будущее?</li>
+          <li>Считаете ли, какую сумму вы тратите ежемесячно?</li>
+          <li>Часто ли совершаете импульсивные покупки?</li>
+          <li>Есть ли у вас долги за коммуналку?</li>
+          <li>Есть ли у вас запас на “черный день”, то есть на случай непредвиденных трат?</li>
+          <li>Понимаете ли вы, как работают сложные проценты и какова их роль в росте вложенных денег?</li>
+          <li>Много ли вы знаете об инвестиционном страховании?</li>
+          <li>Понимаете ли разницу между инвестициями и страхованием?</li>
+        </ol>
+        <img src="./img/stage-two.png" alt="man" class="man">
+      </div>
+    </div>
+  </section>
+
+  <section class="thanks">
+    <div class="container">
+      <div class="thanks__title border-text tac">
+        <h2>
+          Благодарим за прохождение теста!
+        </h2>
+      </div>
+      <div class="thanks__block">
+        <img src="./img/thanks.png" alt="man" class="man">
+        <div class="thanks__content">
+          <h2>Считаем баллы</h2>
+          <p>
+            Если у вас <span class="orange">7-10</span> утвердительных ответов, значит деньги - ваши лучшие друзья.
+          </p>
+          <p>
+            От <span class="orange">4 до 7</span> “да” - хорошо, но вам стоит подтянуть свою финансовую грамотность
+          </p>
+          <p>
+            Меньше <span class="orange">4</span> ответов “да” - вам сложно управлять деньгами и они быстро испаряются.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="reviews">
+    <div class="container">
+      <div class="reviews__title border-text tac">
+        <h2 id="reviews">
+          Чем полезно?
+        </h2>
+      </div>
+      <div class="reviews__heading df aic jcsb">
+        <h3>
+          Вот чего добились наши ученики после прохождения курса:
+        </h3>
+        <p>
+          Вы спросите: “А что этот курс мне даст?” Ответ: “Финансовую свободу!”. Наша программа создана для простых
+          людей, без какой-либо подготовки в финансовой сфере. После курса вы сможете собрать существенную сумму денег
+          на то, что давно мечтали приобрести.
+          Пределов по заработку нет - все зависит от вашего стремления и целеустремленности.
+        </p>
+      </div>
+      <div class="reviews__content df jcsb">
+        <div class="reviews__block">
+          <p class="reviews__block__author">
+            <img src="./img/review-1.png" alt="review">
+            <em>Дария, 38 лет, г. Красноярск</em>
+          </p>
+          <div class="reviews__block__text">
+            <p class="tac">
+              Курс помог не тратить деньги впустую. Я перестала не то что бы тратить много, а наконец-то поняла как
+              сохранить и приумножить средства! Мозги встали на место. Объясняли все больше, чем доступно!
+
+            </p>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <p class="reviews__block__author">
+            <img src="./img/review-2.png" alt="review">
+            <em>Валерий, 51 год, <br> Тульская область</em>
+          </p>
+          <div class="reviews__block__text">
+            <p class="tac">
+              Спасибо, теперь я наконец-то смог достроить дачу при своей обычной зарплате.
+            </p>
+
+          </div>
+        </div>
+        <div class="reviews__block">
+          <p class="reviews__block__author">
+            <img src="./img/review-3.png" alt="review">
+            <em>Дима, 21 год, Сибирь</em>
+          </p>
+          <div class="reviews__block__text">
+            <p class="tac">
+              С того момента, как я увидел PS4, я понял, что это - любовь с первого взгляда… И после прохождения
+              программы я смог позволить себе ее покупку! Курс - просто бомба-ракета =)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__slider">
+        <div class="reviews__block">
+          <p class="reviews__block__author">
+            <img src="./img/review-1.png" alt="review">
+            <em>Дария, 38 лет, г. Красноярск</em>
+          </p>
+          <div class="reviews__block__text">
+            <p class="tac">
+              Курс помог не тратить деньги впустую. Я перестала не то что бы тратить много, а наконец-то поняла как
+              сохранить и приумножить средства! Мозги встали на место. Объясняли все больше, чем доступно!
+
+            </p>
+          </div>
+        </div>
+        <div class="reviews__block">
+          <p class="reviews__block__author">
+            <img src="./img/review-2.png" alt="review">
+            <em>Валерий, 51 год, <br> Тульская область</em>
+          </p>
+          <div class="reviews__block__text">
+            <p class="tac">
+              Спасибо, теперь я наконец-то смог достроить дачу при своей обычной зарплате.
+            </p>
+
+          </div>
+        </div>
+        <div class="reviews__block">
+          <p class="reviews__block__author">
+            <img src="./img/review-3.png" alt="review">
+            <em>Дима, 21 год, Сибирь</em>
+          </p>
+          <div class="reviews__block__text">
+            <p class="tac">
+              С того момента, как я увидел PS4, я понял, что это - любовь с первого взгляда… И после прохождения
+              программы я смог позволить себе ее покупку! Курс - просто бомба-ракета =)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps">
+    <div class="container">
+      <div class="programm__title tac">
+        <h2 class="border-text">
+          Как попасть на курс?
+        </h2>
+      </div>
+      <h3 id="steps">
+        Все очень просто, выполните следующие шаги:
+      </h3>
+      <div class="steps__content df jcsb">
+        <div class="steps__item tac">
+          <img src="./img/step-1.png" alt="step one">
+          <h5>Заполните <span class="orange">форму</span>.</h5>
+        </div>
+        <div class="steps__item tac">
+          <img src="./img/step-2.png" alt="step one">
+          <h5>Дождитесь звонка менеджера для подтверждения регистрации.</h5>
+        </div>
+        <div class="steps__item tac">
+          <img src="./img/step-3.png" alt="step one">
+          <h5>Выберите план обучения.</h5>
+        </div>
+      </div>
+      <div class="steps__footer">
+        <p>
+          После этого вы получите доступ к индивидуальному курсу и сможете применять знания на практике!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bonus">
+    <div class="container">
+      <div class="bonus__content">
+        <p>
+          Приятные <span class="orange">бонусы</span>!
+        </p>
+        <p>
+          После обучения к вам будет приставлен личный финансовый менеджер. Он поможет вам при составлении бюджета, даст
+          советы касательно инвестиционных решений и выстроит долгосрочную стратегию по сбережению и увеличению бюджета.
+        </p>
+        <p>
+          Во время обучения вы будете не просто читать информацию, а сразу примените ее на практике!
+          Вас будут обучать опытные инвесторы, владеющие акциями таких гигантов, как Газпром, Лукойл, Google, Северсталь
+          и Microsoft!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-form">
+    <div class="container">
+      <div class="main-form__title border-text tac">
+        <h2>
+          Не терпится заработать и приумножить бюджет?
+          Научитесь этому с помощью нашего курса!
+        </h2>
+      </div>
+      <div class="main-form__content">
+        <div class="intro__form">
+          <img src="./img/intro-form-bg.svg" alt="background" class="bg">
+          <div class="form-wrapper">
+            <form id="register_form_1" class="form-container">
+              <div class='form_group--name'><label>Имя</label><input data-validation-type='firstname' name='firstname' placeholder='Имя' required>
+                <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+                <div class='error'></div>
+              </div>
+              <div class='form_group--email'><label>Email</label><input type='email' data-validation-type='email' name='email' placeholder='Электронная почта' required>
+                <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+                <div class='error'></div>
+              </div>
+              <div class='form_input--group'><label>Телефон</label><input data-validation-type='phone' name='phone' placeholder='' required>
+                <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+                <div class='error'></div>
+              </div>
+              <div class='form_group--button'>
+                <button class='send-form btn btn-primary main-btn' type='submit'>
+                  <span class='button--inner'>Получить курс</span>
+                </button>
+              </div>
+            </form>
+            <img src="./img/main-form.png" alt="man" class="man">
+            <img src="./img/mob-main-form.png" alt="man" class="man mob">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer__nav df aic jcsb">
+        <a href="#test">Пройти тест</a>
+        <a href="#programm">Программа курса</a>
+        <a href="#reviews">Чем полезно?</a>
+        <a href="#steps">Как попасть на курс?</a>
+      </nav>
+      <nav class="footer__nav policy df aic jcsb">
+        <a href="#" data-terms="policy">Privacy Policy</a>
+        <a href="#" data-terms="use">Terms of Conditions</a>
+        <a href="#" data-terms="cookie">Cookie Policy</a>
+      </nav>
+      <div class="footer__rights tac">
+        <span>© Все права защищены. ProfitPass 2021</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="test-modal modal">
+    <div class="test-modal__content tac">
+      <h2>Пожалуйста, дайте ответ на все вопросы</h2>
+    </div>
+    <div class="test-modal__overlay"></div>
+  </div>
+
+  <div class="main-modal modal">
+    <div class="main-modal__wrapper">
+      <div class="main-modal__content">
+        <h2>
+          <span class="orange">Девиз</span> "Чужими зубами невозможно <br> жевать" — именно о <span
+            class="orange">вас</span>!
+        </h2>
+        <p>
+          <em>
+            Вы готовы двигаться практически в любом направлении, ведь вы очень любознательный человек
+          </em>
+        </p>
+        <p>
+          Полагаясь на собственную интуицию, вы нередко угадываете нужный актив и получаете прибыль из того, что никто
+          не мог предугадать. Вам важно демонстрировать собственное мнение, однако вы готовы "подвинуться", если проект
+          будет стоить того.
+        </p>
+        <p>
+          <em>
+            Вам очень трудно находиться подчиненным, ведь ваше мнение должно быть как минимум равноправным с
+            начальником. В то же время, мы открыты к новому опыту.
+          </em>
+        </p>
+        <h2 class="orange border-text">
+          Готовы стать частью нашей команды?
+        </h2>
+        <div class="main-btn">Присоединиться</div>
+      </div>
+      <div class="form-wrapper">
+        <h3 class="form-wrapper__title tac">
+          Регистрация
+        </h3>
+        <form id="register_form_2" class="form-container">
+          <div class='form_group--name'><label>Имя</label><input data-validation-type='firstname' name='firstname' placeholder='Имя' required>
+            <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+            <div class='error'></div>
+          </div>
+          <div class='form_group--email'><label>Email</label><input type='email' data-validation-type='email' name='email' placeholder='Электронная почта' required>
+            <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+            <div class='error'></div>
+          </div>
+          <div class='form_input--group'><label>Телефон</label><input data-validation-type='phone' name='phone' placeholder='' required>
+            <div class='validation'><i class='fjs fjs-exclamation'></i></div>
+            <div class='error'></div>
+          </div>
+          <div class='form_group--button'>
+            <button class='send-form btn btn-primary main-btn' type='submit'>
+              <span class='button--inner'>Получить курс</span>
+            </button>
+          </div>
+        </form>
+      </div>
+      <img src="./img/close.svg" class="main-modal__close" alt="close">
+      <img src="./img/modal-bg.png" class="circles" alt="circles">
+      <img src="./img/main-form.png" class="man" alt="man">
+      <img src="./img/intro-form-bg.svg" class="elipse" alt="elipse">
+    </div>
+    <div class="main-modal__overlay"></div>
+  </div>
+
+  <script src="./js/jquery-3.1.0.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/app.js?v=1.0"></script>
+
+</body>
+
+</html>
